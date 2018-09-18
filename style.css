@@ -1,0 +1,19 @@
+*{
+    font-size: 20px;
+    /* clearing body spaces */
+    padding: 0;
+    margin: 0;
+    border: 0;
+    /* end */
+}
+header{
+    padding: 20px;
+    background-color: green;
+    color: white;
+}
+/* Media query */
+@media screen and (max-width: 450px) {
+    header {
+        background-color: blue;
+    }
+}
